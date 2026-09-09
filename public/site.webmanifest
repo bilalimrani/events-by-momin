@@ -1,0 +1,21 @@
+{
+  "name": "Events by Momin",
+  "short_name": "Events by Momin",
+  "description": "South Punjab's trusted event management & decor company - weddings, mehndi, barat, walima, birthdays, gala nights, mango parties & office parties.",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#7a1b3d",
+  "background_color": "#fff8f0",
+  "display": "standalone",
+  "start_url": "/"
+}

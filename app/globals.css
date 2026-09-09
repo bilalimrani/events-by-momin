@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f1ea;
+  color: #241a1e;
+}
+
+::selection {
+  background-color: #c9a227;
+  color: #fffdfb;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f6f1ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #a4335c;
+  border-radius: 999px;
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 sm:px-10 lg:px-20 py-20 sm:py-28;
+  }
+
+  .section-heading {
+    @apply font-display text-4xl sm:text-5xl font-bold text-maroon-700 leading-tight;
+  }
+
+  .section-eyebrow {
+    @apply inline-block font-body text-gold-600 tracking-[0.25em] uppercase text-xs sm:text-sm font-semibold mb-4;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-maroon-700 hover:bg-maroon-800 text-cream-50 font-body font-semibold px-8 py-4 rounded-full shadow-lg shadow-maroon-900/20 transition-all duration-300 hover:scale-105 hover:shadow-xl;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 bg-transparent border-2 border-gold-500 text-gold-700 hover:bg-gold-500 hover:text-cream-50 font-body font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105;
+  }
+
+  .card-elegant {
+    @apply relative bg-white/70 backdrop-blur-sm border border-gold-200 rounded-3xl p-8 shadow-md shadow-maroon-900/5 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-maroon-900/15 hover:border-gold-400;
+  }
+
+  .gold-divider {
+    @apply w-24 h-[3px] bg-gradient-to-r from-transparent via-gold-500 to-transparent mx-auto rounded-full;
+  }
+}
+
+.bg-gradient-royal {
+  background: linear-gradient(120deg, #3a0c1e, #7a1b3d, #a4335c, #7a1b3d, #3a0c1e);
+  background-size: 300% 300%;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(90deg, #ecc754, #c9a227, #ecc754);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.pattern-dots {
+  background-image: radial-gradient(#c9a227 1.4px, transparent 1.4px);
+  background-size: 22px 22px;
+}
+
+.noise-overlay {
+  position: relative;
+}
