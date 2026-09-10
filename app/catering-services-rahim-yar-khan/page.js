@@ -22,6 +22,16 @@ export const metadata = {
     "catering services Goth Machi",
     "catering services Liaqatpur",
     "affordable catering Rahim Yar Khan",
+    "catering chahiye RYK",
+    "khana banana hai event ke liye",
+    "dawat ka khana RYK",
+    "wedding ka khana Rahim Yar Khan",
+    "catering wala contact number RYK",
+    "barat ka khana chahiye",
+    "walima catering contact number",
+    "khana catering near me RYK",
+    "function ka khana South Punjab",
+    "best catering wala RYK",
   ],
   alternates: { canonical: `${siteConfig.url}/catering-services-rahim-yar-khan` },
   openGraph: {
@@ -353,6 +363,36 @@ export default function CateringPage() {
                 📧 {siteConfig.email}
               </a>
             </div>
+          </div>
+
+          {/* Local FAQ */}
+          <h2 style={{ color: "#7a1b3d", fontSize: "1.3rem", fontWeight: "bold", marginBottom: "16px" }}>
+            Aksar Poochhe Jaane Wale Sawalaat
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px", marginBottom: "36px" }}>
+            {[
+              {
+                q: "Catering chahiye — Events by Momin se kaise book karein?",
+                a: "WhatsApp karein 0309-4439441 — event type (barat/walima/birthday), date, location aur guest count batayein. Hum aapko same day catering quote de denge. RYK, Sadiqabad, Khanpur aur poore South Punjab mein service dete hain.",
+              },
+              {
+                q: "Barat ya walima ka khana kitna kharcha aata hai?",
+                a: "Catering cost guest count, menu type aur service style par depend karti hai. Hum desi, continental aur mixed menus dete hain. Budget ke hisaab se package milta hai — WhatsApp par poochhein, transparent quote milega.",
+              },
+              {
+                q: "Kya Events by Momin decoration ke saath catering bhi deta hai?",
+                a: "Haan! Events by Momin ka combined package hai — decoration + tent + catering sab ek hi jagah se. Alag alag vendors dhundne ki zaroorat nahi. Ek call ya WhatsApp mein pura event manage ho jata hai.",
+              },
+              {
+                q: "Kya khana fresh banta hai ya bahar se aata hai?",
+                a: "Hum trusted local catering teams ke saath kaam karte hain jo fresh, hygienic khana venue par ya paas mein tayyar karte hain. Serving staff, crockery aur cleanup sab included hota hai.",
+              },
+            ].map(({ q, a }) => (
+              <div key={q} style={{ background: "#f6f1ea", borderRadius: "12px", padding: "18px 20px", borderLeft: "4px solid #c9a227" }}>
+                <div style={{ fontWeight: "700", color: "#7a1b3d", marginBottom: "6px", fontSize: "0.97rem" }}>Q: {q}</div>
+                <div style={{ color: "#444", lineHeight: 1.75, fontSize: "0.9rem" }}>A: {a}</div>
+              </div>
+            ))}
           </div>
 
           {/* Related */}

@@ -20,6 +20,15 @@ export const metadata = {
     "tent rental decoration Rahim Yar Khan",
     "barat tent decoration",
     "walima tent decoration RYK",
+    "tent lagana hai",
+    "shamiana chahiye",
+    "function ka tent chahiye",
+    "barat ka tent lagwana hai",
+    "wedding tent lagwana hai RYK",
+    "tent service near me RYK",
+    "tent wala contact number RYK",
+    "shamiana wala RYK",
+    "outdoor event tent South Punjab",
   ],
   alternates: { canonical: `${siteConfig.url}/tent-marquee-decoration-ryk` },
   openGraph: {
@@ -266,6 +275,36 @@ export default function TentMarqueePage() {
                 📞 {siteConfig.phoneDisplay}
               </a>
             </div>
+          </div>
+
+          {/* Local FAQ */}
+          <h2 style={{ color: "#7a1b3d", fontSize: "1.3rem", fontWeight: "bold", marginBottom: "16px" }}>
+            Aksar Poochhe Jaane Wale Sawalaat
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px", marginBottom: "36px" }}>
+            {[
+              {
+                q: "Tent lagana hai — Events by Momin se kaise contact karein?",
+                a: "Bahut asaan! WhatsApp karein 0309-4439441 par — apna event date, location aur guest count batayein. Hum aapko same day quote de denge. Rahim Yar Khan, Sadiqabad, Khanpur aur Goth Machi sab jagah service available hai.",
+              },
+              {
+                q: "Shamiana chahiye — kya aap supply aur setup dono karte hain?",
+                a: "Haan! Events by Momin shamiana supply, setup aur decoration dono karta hai. Sirf tent nahi — ceiling drapery, lighting, guest seating aur full decor samait pura kaam karte hain.",
+              },
+              {
+                q: "Function ka tent kitna kharcha aata hai RYK mein?",
+                a: "Tent ka kharcha event size, guest count aur decoration level par depend karta hai. WhatsApp par apni details bhejein — hum transparent quote denge koi chhupa hua charge nahi.",
+              },
+              {
+                q: "Kya barat aur walima ke liye tent service milti hai?",
+                a: "Bilkul! Barat aur walima dono ke liye shamiana/marquee setup karte hain. Pura decoration — stage, lighting, flower decor aur seating — sab ek hi team se milega.",
+              },
+            ].map(({ q, a }) => (
+              <div key={q} style={{ background: "#f6f1ea", borderRadius: "12px", padding: "18px 20px", borderLeft: "4px solid #c9a227" }}>
+                <div style={{ fontWeight: "700", color: "#7a1b3d", marginBottom: "6px", fontSize: "0.97rem" }}>Q: {q}</div>
+                <div style={{ color: "#444", lineHeight: 1.75, fontSize: "0.9rem" }}>A: {a}</div>
+              </div>
+            ))}
           </div>
 
           {/* Related */}
