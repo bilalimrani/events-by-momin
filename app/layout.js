@@ -20,7 +20,7 @@ export const metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default:
-      "Events by Momin | Best Event Planner & Event Management Company in Rahim Yar Khan, Sadiqabad, Khanpur, Goth Machi, Liaqatpur",
+      "Events by Momin | Luxury Event Planner & Best Event Management Company in Rahim Yar Khan, South Punjab",
     template: "%s | Events by Momin",
   },
   description: siteConfig.description,
@@ -62,7 +62,7 @@ export const metadata = {
     url: siteConfig.url,
     siteName: siteConfig.name,
     title:
-      "Events by Momin | Best Event Planner & Event Management Company in Rahim Yar Khan, Sadiqabad, Khanpur, Goth Machi, Liaqatpur",
+      "Events by Momin | Luxury Event Planner & Best Event Management Company in Rahim Yar Khan, South Punjab",
     description: siteConfig.description,
     images: [
       {
@@ -76,7 +76,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Events by Momin | Best Event Planner & Event Management Company in Rahim Yar Khan, Sadiqabad, Khanpur, Goth Machi, Liaqatpur",
+      "Events by Momin | Luxury Event Planner & Best Event Management Company in Rahim Yar Khan, South Punjab",
     description: siteConfig.description,
     images: ["/gallery/grand-entrance-aisle.jpg"],
   },

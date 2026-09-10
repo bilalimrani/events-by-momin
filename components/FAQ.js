@@ -82,6 +82,10 @@ const popularSearches = [
 
 const faqs = [
   {
+    q: "Who is the best luxury event planner in Rahim Yar Khan?",
+    a: "Events by Momin is South Punjab's leading luxury event planner — known for premium wedding stages, high-end barat and walima decor, luxury mehndi setups and elegant gala nights. We bring luxury event planning to Rahim Yar Khan, Sadiqabad, Khanpur and all of South Punjab.",
+  },
+  {
     q: "Who is the best event planner in Rahim Yar Khan?",
     a: "Events by Momin is one of the most searched and highest-rated event management and decor companies in Rahim Yar Khan (RYK), trusted for weddings, mehndis, birthdays and corporate parties.",
   },

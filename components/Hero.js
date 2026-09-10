@@ -97,7 +97,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="font-display text-4xl sm:text-6xl lg:text-7xl font-bold text-cream-50 leading-[1.1] max-w-5xl"
         >
-          Best Event Planner &amp; Decorator
+          Luxury Event Planner &amp; Decorator
           <span className="block text-gradient-gold mt-2">in Rahim Yar Khan &amp; South Punjab</span>
         </motion.h1>
 
@@ -108,9 +108,9 @@ export default function Hero() {
           className="mt-8 max-w-2xl text-cream-100/90 text-base sm:text-lg leading-relaxed"
         >
           <strong className="text-gold-200">Events by Momin</strong> is South Punjab&apos;s trusted
-          event planner &amp; event management company — weddings, barat &amp; walima stages, mehndi &amp; dholki,
+          luxury event planner &amp; event management company — weddings, barat &amp; walima stages, mehndi &amp; dholki,
           birthday parties, gala nights, mango parties, office parties and every celebration you can
-          imagine. Serving Rahim Yar Khan, Sadiqabad, Khanpur, Liaqatpur and beyond.
+          imagine. Luxury decor, premium setups. Serving Rahim Yar Khan, Sadiqabad, Khanpur, Liaqatpur and beyond.
         </motion.p>
 
         <motion.div
