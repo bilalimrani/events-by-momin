@@ -43,6 +43,19 @@ const popularSearches = [
   "Exhibition Stall Decoration",
   "Bridal Shower Decoration",
   "Catering Services in RYK",
+  "Tent Lagana Hai",
+  "Stage Banana Hai",
+  "Mehndi Ki Raat Decoration Chahiye",
+  "Shaadi Ka Decoration RYK",
+  "Barat Wala Stage Chahiye",
+  "Walima Stage Banana Hai",
+  "Dholki Setup Chahiye",
+  "Birthday Ka Decoration Chahiye",
+  "Function Ka Tent Chahiye",
+  "Decoration Wala Number Chahiye",
+  "Event Planner Ka Number",
+  "Sab Say Acha Decorator RYK",
+  "Mehndi Function Setup Chahiye",
   "Tent Service Near Me",
   "Shamiana Decoration",
   "Marquee Setup for Weddings",
@@ -111,6 +124,18 @@ const faqs = [
   {
     q: "Are you just decorators or a full decoration company?",
     a: "We're a complete decoration company — not just decorators. Events by Momin plans, designs and installs everything from stage decor and lighting to florals, so you get one team for the whole event.",
+  },
+  {
+    q: "Tent lagana hai — kya aap yeh service dete hain?",
+    a: "Haan! Events by Momin tent, shamiana aur marquee setup ki complete service deta hai Rahim Yar Khan aur surrounding areas mein. Outdoor functions, barats, walimas aur gala nights ke liye hamaari team pura tent setup karti hai — chairs, lighting aur decor samait. WhatsApp karein aur quote len.",
+  },
+  {
+    q: "Stage banana hai, kahan se contact karein?",
+    a: "Stage banana ho — chahe barat ka ho, walima ka, mehndi ka ya birthday ka — Events by Momin se contact karein. Hum custom stage design, lighting aur decoration ka pura kaam karte hain. Call ya WhatsApp karein: 0309-4439441.",
+  },
+  {
+    q: "Mehndi ki raat ka decoration chahiye — kya karna hoga?",
+    a: "Bohot asaan! Bas hamaari WhatsApp par date, venue aur guest count bhejein. Events by Momin mehndi ki raat ka poora decoration karta hai — colorful stage, dholki setup, photo corner, flower decor aur lighting sab kuch. Hum RYK, Sadiqabad, Khanpur aur Goth Machi mein service dete hain.",
   },
   {
     q: "Kya aap Goth Machi aur Liaqatpur mein bhi event decor karte hain?",
