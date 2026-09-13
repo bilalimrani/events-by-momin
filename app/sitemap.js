@@ -43,6 +43,7 @@ export default function sitemap() {
   const eventPages = [
     "/mun-event-management-rahim-yar-khan",
     "/hbl-qawali-night-dinner-ryk",
+    "/ryk-chamber-of-commerce-event",
   ].map((path) => ({ url: `${base}${path}`, lastModified: now, changeFrequency: "yearly", priority: 0.7 }));
 
   // Portfolio pages
