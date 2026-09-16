@@ -5,13 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { siteConfig } from "@/lib/siteConfig";
 
 const links = [
-  { label: "Home", href: "#home" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Areas We Serve", href: "#areas" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/#home" },
+  { label: "Gallery", href: "/#gallery" },
+  { label: "About", href: "/#about" },
+  { label: "Services", href: "/#services" },
+  { label: "Areas We Serve", href: "/#areas" },
+  { label: "FAQ", href: "/#faq" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Navbar() {
@@ -43,7 +43,7 @@ export default function Navbar() {
         aria-hidden="true"
       />
       <nav className="section-padding !py-0 flex items-center justify-between">
-        <a href="#home" className="flex items-center gap-2 group">
+        <a href="/" className="flex items-center gap-2 group">
           <svg
             width="22"
             height="22"
