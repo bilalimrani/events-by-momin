@@ -2,6 +2,7 @@ import { siteConfig } from "@/lib/siteConfig";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import TikTokEmbed from "@/components/TikTokEmbed";
 
 export const metadata = {
   title: "RYK Chamber of Commerce Event Management | Events by Momin",
@@ -162,24 +163,9 @@ export default function ChamberOfCommerceEventPage() {
           <h2 style={{ color: "#7a1b3d", fontSize: "1.3rem", fontWeight: "bold", marginBottom: "16px" }}>
             Event Highlights
           </h2>
-          <div style={{ display: "flex", justifyContent: "center", marginBottom: "36px" }}>
-            <blockquote
-              className="tiktok-embed"
-              cite="https://www.tiktok.com/@events_by_momin_official/video/7684707345976315157"
-              data-video-id="7684707345976315157"
-              style={{ maxWidth: "605px", minWidth: "325px", width: "100%" }}
-            >
-              <section>
-                <a target="_blank" rel="noopener noreferrer" title="@events_by_momin_official" href="https://www.tiktok.com/@events_by_momin_official?refer=embed">
-                  @events_by_momin_official
-                </a>
-                {" "}✨ Chamber of Commerce Rahim Yar Khan ki shandar taqreeb ka intezaam — Events by Momin ki taraf se!{" "}
-                <a title="events" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/events?refer=embed">#events</a>{" "}
-                <a title="RYK" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/RYK?refer=embed">#RYK</a>
-              </section>
-            </blockquote>
+          <div style={{ marginBottom: "36px" }}>
+            <TikTokEmbed videoId="7684707345976315157" />
           </div>
-          <script async src="https://www.tiktok.com/embed.js" />
 
           {/* Why trust us for corporate events */}
           <h2 style={{ color: "#7a1b3d", fontSize: "1.3rem", fontWeight: "bold", marginBottom: "14px" }}>
