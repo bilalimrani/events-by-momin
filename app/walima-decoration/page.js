@@ -6,9 +6,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata = {
   title: "Walima Decoration in Rahim Yar Khan & South Punjab | Events by Momin",
   description:
-    "Elegant walima decoration and reception setup in Rahim Yar Khan, Sadiqabad, Khanpur and South Punjab. Royal walima stages, luxury backdrops and ambient lighting by Events by Momin. Call +92 309 4439441.",
+    "Walima decoration near you in RYK, Sadiqabad & Khanpur. Royal walima stages, luxury hall decor, ambient lighting & full reception setup. WhatsApp for free quote: +92 309 4439441.",
   alternates: { canonical: `${siteConfig.url}/walima-decoration` },
-  keywords: ["walima decoration", "walima stage RYK", "walima reception decor", "valima decoration", "walima decoration Sadiqabad", "walima reception South Punjab"],
+  keywords: ["walima decoration", "walima stage RYK", "walima reception decor", "valima decoration", "walima decoration Sadiqabad", "walima reception South Punjab", "walima decoration near me", "walima decoration near me RYK", "walima decoration Rahim Yar Khan", "walima hall decoration", "walima stage decoration near me", "waleema decoration", "walima function decoration", "walima event decoration South Punjab", "walima ka decoration chahiye", "walima decoration Khanpur", "walima decoration Liaqatpur"],
   openGraph: {
     title: "Walima Decoration in Rahim Yar Khan | Events by Momin",
     description: "Royal walima stages and reception decoration in RYK, Sadiqabad, Khanpur & South Punjab. WhatsApp: +92 309 4439441",

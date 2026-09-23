@@ -46,6 +46,11 @@ export const metadata = {
     "canopy decoration Rahim Yar Khan",
     "tent canopy wedding RYK",
     "event management near me South Punjab",
+    "shadi event decoration RYK",
+    "home marriage decoration",
+    "shadi planner RYK",
+    "wedding organizer RYK",
+    "shadi decoration near me Rahim Yar Khan",
   ],
   alternates: {
     canonical: `${siteConfig.url}/event-planner-rahim-yar-khan`,

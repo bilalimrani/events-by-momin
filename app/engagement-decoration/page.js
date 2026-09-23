@@ -6,9 +6,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata = {
   title: "Engagement & Ring Ceremony Decoration in Rahim Yar Khan | Events by Momin",
   description:
-    "Beautiful engagement and ring ceremony decoration in Rahim Yar Khan, Sadiqabad, Khanpur and South Punjab. Romantic stages, floral arches and elegant decor by Events by Momin. Call +92 309 4439441.",
+    "Engagement & mangni decoration near you in RYK, Sadiqabad & Khanpur. Romantic stages, floral arches, ring ceremony & anniversary setups. WhatsApp for booking: +92 309 4439441.",
   alternates: { canonical: `${siteConfig.url}/engagement-decoration` },
-  keywords: ["engagement decoration", "ring ceremony decoration", "engagement stage RYK", "engagement decorator Rahim Yar Khan", "ring ceremony decoration South Punjab", "anniversary decoration", "bridal shower decoration"],
+  keywords: ["engagement decoration", "ring ceremony decoration", "engagement stage RYK", "engagement decorator Rahim Yar Khan", "ring ceremony decoration South Punjab", "anniversary decoration", "bridal shower decoration", "engagement decoration near me RYK", "mangni decoration", "mangni ka stage", "mangni decoration near me", "ring ceremony near me RYK", "nisbat decoration", "engagement stage near me South Punjab"],
   openGraph: {
     title: "Engagement & Ring Ceremony Decoration in RYK | Events by Momin",
     description: "Romantic engagement and ring ceremony decoration in RYK, Sadiqabad, Khanpur & South Punjab. WhatsApp: +92 309 4439441",

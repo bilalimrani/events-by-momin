@@ -6,9 +6,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata = {
   title: "Mehndi Decoration in Rahim Yar Khan | Dholki Setup | Events by Momin",
   description:
-    "Best mehndi and dholki decoration in Rahim Yar Khan, Sadiqabad, Khanpur and South Punjab. Colourful mehndi stage, photo corners, dhol arrangements by Events by Momin. Call +92 309 4439441.",
+    "Mehndi & dholki decoration near you in RYK, Sadiqabad & Khanpur. Colourful mehndi stages, photo corners, dholki setups & full night decoration. WhatsApp for booking: +92 309 4439441.",
   alternates: { canonical: `${siteConfig.url}/mehndi-decoration-rahim-yar-khan` },
-  keywords: ["mehndi decoration RYK", "mehndi stage setup", "dholki decoration", "mehndi decor near me", "mehndi decorator Rahim Yar Khan", "mehndi night decoration South Punjab", "henna night decoration", "mehndi function decoration"],
+  keywords: ["mehndi decoration RYK", "mehndi stage setup", "dholki decoration", "mehndi decor near me", "mehndi decorator Rahim Yar Khan", "mehndi night decoration South Punjab", "henna night decoration", "mehndi function decoration", "mehndi stage near me", "mehndi decoration near me RYK", "dholki decoration RYK", "dholki decoration near me", "mehndi ki raat decoration chahiye", "dholki ka stage banana hai", "mehndi event decoration RYK", "mehndi night decoration near me"],
   openGraph: {
     title: "Mehndi Decoration in Rahim Yar Khan | Events by Momin",
     description: "Colourful mehndi and dholki decoration in RYK, Sadiqabad, Khanpur & South Punjab. WhatsApp: +92 309 4439441",
