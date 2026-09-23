@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { siteConfig } from "@/lib/siteConfig";
 
@@ -14,12 +15,27 @@ const links = [
   { label: "Contact", href: "/#contact" },
 ];
 
+const BUILD_VERSION = "2026-09-23 | cf6b7cd";
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [progress, setProgress] = useState(0);
+  const pathname = usePathname();
+
+  const handleNavClick = (e, href) => {
+    if (!href.startsWith("/#")) return;
+    e.preventDefault();
+    const sectionId = href.slice(2);
+    if (pathname === "/") {
+      document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.href = href;
+    }
+  };
 
   useEffect(() => {
+    console.log(`%cEvents by Momin%c Build: ${BUILD_VERSION}`, "color:#9b1c1c;font-weight:bold;", "color:gray;");
     const onScroll = () => {
       setScrolled(window.scrollY > 40);
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -69,6 +85,7 @@ export default function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
                 className={`font-body text-sm font-medium tracking-wide transition-colors hover:text-gold-500 ${
                   scrolled ? "text-charcoal" : "text-cream-100"
                 }`}
@@ -116,7 +133,7 @@ export default function Navbar() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    onClick={() => setOpen(false)}
+                    onClick={(e) => { handleNavClick(e, link.href); setOpen(false); }}
                     className="block py-3 text-charcoal font-medium border-b border-gold-100"
                   >
                     {link.label}
