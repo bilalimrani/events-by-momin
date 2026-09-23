@@ -15,7 +15,7 @@ const links = [
   { label: "Contact", href: "/#contact" },
 ];
 
-const BUILD_VERSION = "2026-09-23 | cf6b7cd";
+const BUILD_VERSION = process.env.NEXT_PUBLIC_BUILD_TIME ?? "unknown";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
