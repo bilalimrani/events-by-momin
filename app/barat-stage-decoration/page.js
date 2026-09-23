@@ -6,9 +6,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata = {
   title: "Barat Stage Decoration in Rahim Yar Khan & South Punjab | Events by Momin",
   description:
-    "Stunning barat stage decoration in Rahim Yar Khan, Sadiqabad, Khanpur and South Punjab. Floral barat stages, premium lighting, royal seating by Events by Momin. Call +92 309 4439441.",
+    "Barat stage decoration near you in RYK, Sadiqabad & Khanpur. Floral stages, LED setups, royal seating & premium lighting for your barat. WhatsApp for design & quote: +92 309 4439441.",
   alternates: { canonical: `${siteConfig.url}/barat-stage-decoration` },
-  keywords: ["barat decoration RYK", "barat stage decor", "barat stage design", "groom stage decoration", "barat decoration Sadiqabad", "barat stage South Punjab", "wedding barat decoration Pakistan"],
+  keywords: ["barat decoration RYK", "barat stage decor", "barat stage design", "groom stage decoration", "barat decoration Sadiqabad", "barat stage South Punjab", "wedding barat decoration Pakistan", "barat stage near me", "barat stage near me RYK", "barat stage wala Rahim Yar Khan", "barat stage design RYK", "barat stage decorator near me", "barat stage banana hai", "barat wala stage chahiye RYK"],
   openGraph: {
     title: "Barat Stage Decoration in Rahim Yar Khan | Events by Momin",
     description: "Show-stopping barat stages in RYK, Sadiqabad, Khanpur & South Punjab. WhatsApp: +92 309 4439441",

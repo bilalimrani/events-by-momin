@@ -6,7 +6,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata = {
   title: "Tent & Marquee Decoration in Rahim Yar Khan | Events by Momin",
   description:
-    "Premium tent and marquee decoration services in Rahim Yar Khan & South Punjab. Shamiana setup, wedding tent decor, lighting and full marquee management by Events by Momin. Call +92 309 4439441.",
+    "Tent, marquee & canopy decoration near you in Rahim Yar Khan & South Punjab. Wedding tent, shamiana setup, outdoor canopy decor, lighting & full marquee management. WhatsApp: +92 309 4439441.",
   keywords: [
     "tent decoration Rahim Yar Khan",
     "marquee decoration RYK",
@@ -29,6 +29,18 @@ export const metadata = {
     "tent wala contact number RYK",
     "shamiana wala RYK",
     "outdoor event tent South Punjab",
+    "tent near me RYK",
+    "tent near me Rahim Yar Khan",
+    "shamiana near me RYK",
+    "marquee near me South Punjab",
+    "canopy decoration RYK",
+    "wedding canopy",
+    "wedding canopy decoration Rahim Yar Khan",
+    "canopy tent wedding RYK",
+    "outdoor canopy decoration South Punjab",
+    "tent service near me Rahim Yar Khan",
+    "shamiana lagwana hai near me",
+    "wedding tent near me RYK",
   ],
   alternates: { canonical: `${siteConfig.url}/tent-marquee-decoration-ryk` },
   openGraph: {

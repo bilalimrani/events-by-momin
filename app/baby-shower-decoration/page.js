@@ -6,9 +6,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata = {
   title: "Baby Shower Decoration in Rahim Yar Khan & South Punjab | Events by Momin",
   description:
-    "Sweet and beautiful baby shower decoration in Rahim Yar Khan, Sadiqabad, Khanpur and South Punjab. Welcome baby setups, aqeeqa decoration and baby shower parties by Events by Momin. Call +92 309 4439441.",
+    "Baby shower decoration near you in Rahim Yar Khan, Sadiqabad & Khanpur. Cute themes, welcome baby setups, aqeeqa decoration & balloon decor. WhatsApp for booking: +92 309 4439441.",
   alternates: { canonical: `${siteConfig.url}/baby-shower-decoration` },
-  keywords: ["baby shower decoration RYK", "baby shower planner", "welcome baby party decoration", "aqeeqa decoration", "baby shower decoration South Punjab", "baby shower Rahim Yar Khan", "gender reveal decoration Pakistan"],
+  keywords: ["baby shower decoration RYK", "baby shower planner", "welcome baby party decoration", "aqeeqa decoration", "baby shower decoration South Punjab", "baby shower Rahim Yar Khan", "gender reveal decoration Pakistan", "baby shower decoration near me", "baby shower near me RYK", "baby shower decorator near me Rahim Yar Khan", "aqeeqa decoration near me RYK", "balloon decoration near me RYK", "birthday decoration near me RYK"],
   openGraph: {
     title: "Baby Shower Decoration in Rahim Yar Khan | Events by Momin",
     description: "Sweet baby shower and welcome baby decoration in RYK, Sadiqabad, Khanpur & South Punjab. WhatsApp: +92 309 4439441",

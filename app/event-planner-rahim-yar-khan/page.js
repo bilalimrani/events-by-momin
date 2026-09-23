@@ -4,9 +4,9 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "Best Event Planner in Rahim Yar Khan (RYK) | Events by Momin",
+  title: "Event Planner in Rahim Yar Khan | Weddings, Barat & More | Events by Momin",
   description:
-    "Events by Momin is Rahim Yar Khan's #1 event planner and decoration company. Wedding decor, barat stage, walima, mehndi, dholki, birthday, gala night and corporate events in RYK. Call +92 309 4439441.",
+    "Looking for an event planner in Rahim Yar Khan? Weddings, barat stage, mehndi, walima, birthday & corporate events across RYK & South Punjab. WhatsApp for free quote: +92 309 4439441.",
   keywords: [
     "best event planner in RYK",
     "best event planner in Rahim Yar Khan",
@@ -38,14 +38,22 @@ export const metadata = {
     "gala night planner RYK",
     "corporate event planner RYK",
     "decoration company near me RYK",
+    "event planner near me RYK",
+    "event planner near me Rahim Yar Khan",
+    "event organizer near me RYK",
+    "event decorator near me RYK",
+    "wedding canopy RYK",
+    "canopy decoration Rahim Yar Khan",
+    "tent canopy wedding RYK",
+    "event management near me South Punjab",
   ],
   alternates: {
     canonical: `${siteConfig.url}/event-planner-rahim-yar-khan`,
   },
   openGraph: {
-    title: "Best Event Planner in Rahim Yar Khan (RYK) | Events by Momin",
+    title: "Event Planner in Rahim Yar Khan | Weddings, Barat & More | Events by Momin",
     description:
-      "Rahim Yar Khan's #1 event management and decor company. Weddings, barat, walima, mehndi, birthdays and corporate events. WhatsApp: +92 309 4439441",
+      "Looking for an event planner in RYK? Weddings, barat, mehndi, walima, birthday & corporate events. WhatsApp for free quote: +92 309 4439441",
     images: [{ url: `${siteConfig.url}/gallery/grand-entrance-aisle.jpg` }],
   },
 };

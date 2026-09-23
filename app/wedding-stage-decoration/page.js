@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Luxury wedding stage decoration and bridal stage design in Rahim Yar Khan, Sadiqabad, Khanpur and South Punjab. Floral mandaps, LED stages, flower walls by Events by Momin. Call +92 309 4439441.",
   alternates: { canonical: `${siteConfig.url}/wedding-stage-decoration` },
-  keywords: ["wedding stage decoration", "wedding stage design", "bridal stage decor", "wedding flower decoration", "wedding decor Rahim Yar Khan", "luxury wedding decor Pakistan", "affordable wedding decor Pakistan", "wedding backdrop design"],
+  keywords: ["wedding stage decoration", "wedding stage design", "bridal stage decor", "wedding flower decoration", "wedding decor Rahim Yar Khan", "luxury wedding decor Pakistan", "affordable wedding decor Pakistan", "wedding backdrop design", "wedding canopy", "wedding canopy decoration RYK", "wedding canopy near me", "wedding stage near me RYK", "wedding decoration near me Rahim Yar Khan", "wedding stage near me South Punjab"],
   openGraph: {
     title: "Wedding Stage Decoration in Rahim Yar Khan | Events by Momin",
     description: "Luxury wedding stage and bridal decor in RYK, Sadiqabad, Khanpur & South Punjab. WhatsApp: +92 309 4439441",
