@@ -4,14 +4,45 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-  title: "Corporate Event Management in Rahim Yar Khan | Events by Momin",
+  title: "Corporate Event Management in Rahim Yar Khan | Annual Dinner & Team Building | Events by Momin",
   description:
-    "Professional corporate event management in Rahim Yar Khan and South Punjab. Annual dinners, office parties, product launches, seminars and corporate functions by Events by Momin. Call +92 309 4439441.",
+    "Corporate event management near you in RYK & South Punjab. Annual dinners, team building, office parties, award ceremonies & product launches. WhatsApp for free quote: +92 309 4439441.",
   alternates: { canonical: `${siteConfig.url}/corporate-event-management-rahim-yar-khan` },
-  keywords: ["corporate event management RYK", "office party planner Rahim Yar Khan", "annual dinner event management", "corporate event planner Pakistan", "product launch event management", "seminar event planning", "conference event planning South Punjab"],
+  keywords: [
+    "corporate event management RYK",
+    "corporate event management Rahim Yar Khan",
+    "corporate event planner South Punjab",
+    "office party planner Rahim Yar Khan",
+    "annual dinner event management",
+    "annual dinner management RYK",
+    "annual dinner near me RYK",
+    "team building event RYK",
+    "team building Rahim Yar Khan",
+    "team building near me RYK",
+    "team building event management South Punjab",
+    "corporate event planner Pakistan",
+    "product launch event management",
+    "product launch RYK",
+    "seminar event planning",
+    "seminar management RYK",
+    "conference event planning South Punjab",
+    "award ceremony management RYK",
+    "awards night management Rahim Yar Khan",
+    "corporate dinner RYK",
+    "corporate gala night RYK",
+    "office farewell party decoration",
+    "welcome party decoration RYK",
+    "corporate function management near me",
+    "corporate event management near me RYK",
+    "company event planner RYK",
+    "business event management South Punjab",
+    "school college function decoration RYK",
+    "exhibition stall decoration RYK",
+    "corporate event decoration near me",
+  ],
   openGraph: {
-    title: "Corporate Event Management in Rahim Yar Khan | Events by Momin",
-    description: "Professional corporate events in RYK & South Punjab. Annual dinners, office parties & launches. WhatsApp: +92 309 4439441",
+    title: "Corporate Event Management in Rahim Yar Khan | Annual Dinner & Team Building",
+    description: "Annual dinners, team building, office parties & award ceremonies in RYK & South Punjab. WhatsApp: +92 309 4439441",
     images: [{ url: `${siteConfig.url}/gallery/reception-dining-hall.jpg` }],
   },
 };
@@ -71,14 +102,26 @@ export default function CorporatePage() {
           <h2 style={{ color: "#7a1b3d", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Corporate Events We Manage</h2>
           <ul style={{ color: "#333", lineHeight: 2.2, paddingLeft: "20px", marginBottom: "24px" }}>
             <li>Annual Dinner &amp; Awards Night</li>
+            <li>Team Building Events &amp; Corporate Activities</li>
             <li>Office Party &amp; Team Celebration</li>
             <li>Product Launch Event</li>
             <li>Seminar &amp; Conference Setup</li>
             <li>Exhibition Stall Decoration</li>
             <li>Corporate Gala Night</li>
+            <li>Award Ceremony Management</li>
             <li>School &amp; College Functions</li>
             <li>Welcome &amp; Farewell Party Decoration</li>
           </ul>
+
+          <h2 style={{ color: "#7a1b3d", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Team Building Events in Rahim Yar Khan</h2>
+          <p style={{ color: "#333", lineHeight: 1.8, marginBottom: "24px" }}>
+            Looking for <strong>team building event management in RYK</strong>? Events by Momin organises engaging team building activities, corporate dinners and staff celebrations across Rahim Yar Khan and South Punjab. Full decor, stage, lighting, seating and catering — all in one place.
+          </p>
+
+          <h2 style={{ color: "#7a1b3d", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Annual Dinner Management Near You</h2>
+          <p style={{ color: "#333", lineHeight: 1.8, marginBottom: "24px" }}>
+            Planning an <strong>annual dinner in Rahim Yar Khan</strong>? We handle complete annual dinner management — stage setup, backdrop with company branding, ambient lighting, seating arrangements, food service and awards presentation. Contact us for a free quote.
+          </p>
 
           <div style={{ background: "#0c1a3a", borderRadius: "16px", padding: "24px", marginBottom: "32px", color: "#fffdfb" }}>
             <h3 style={{ color: "#ecc754", fontWeight: "bold", marginBottom: "8px" }}>Recent Case Study: RYK MUN</h3>
