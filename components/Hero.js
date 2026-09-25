@@ -41,7 +41,7 @@ export default function Hero() {
       />
       <motion.div
         aria-hidden="true"
-        className="absolute bottom-10 left-[15%] w-64 h-64 bg-maroon-400/20 rounded-full blur-3xl"
+        className="absolute bottom-10 left-[15%] w-64 h-64 bg-gold-400/10 rounded-full blur-3xl"
       />
 
       {/* Decorative mandala corner motif */}
@@ -76,7 +76,7 @@ export default function Hero() {
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-gold-100 absolute left-4 top-2">
           <path d="M12 0l2.4 9.6L24 12l-9.6 2.4L12 24l-2.4-9.6L0 12l9.6-2.4L12 0z" />
         </svg>
-        <svg viewBox="0 0 24 24" fill="currentColor" className="w-3 h-3 text-cream-100 absolute left-1 top-6">
+        <svg viewBox="0 0 24 24" fill="currentColor" className="w-3 h-3 text-cream-50 absolute left-1 top-6">
           <path d="M12 0l2.4 9.6L24 12l-9.6 2.4L12 24l-2.4-9.6L0 12l9.6-2.4L12 0z" />
         </svg>
       </div>
@@ -105,7 +105,7 @@ export default function Hero() {
           initial={{ y: 24 }}
           animate={{ y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="mt-8 max-w-2xl text-cream-100/90 text-base sm:text-lg leading-relaxed"
+          className="mt-8 max-w-2xl text-cream-50/90 text-base sm:text-lg leading-relaxed"
         >
           <strong className="text-gold-200">Events by Momin</strong> is South Punjab&apos;s trusted
           luxury event planner &amp; event management company — weddings, barat &amp; walima stages, mehndi &amp; dholki,
@@ -127,7 +127,7 @@ export default function Hero() {
           >
             Book on WhatsApp
           </a>
-          <a href={`tel:${siteConfig.phoneRaw}`} className="btn-secondary !border-cream-100 !text-cream-100 hover:!bg-cream-100 hover:!text-maroon-800">
+          <a href={`tel:${siteConfig.phoneRaw}`} className="btn-secondary !border-cream-50/70 !text-cream-50 hover:!bg-cream-50 hover:!text-black">
             Call {siteConfig.phoneDisplay}
           </a>
         </motion.div>
@@ -143,7 +143,7 @@ export default function Hero() {
               <div className="font-display text-3xl sm:text-4xl font-bold text-gold-300">
                 {s.value}
               </div>
-              <div className="text-cream-100/70 text-xs sm:text-sm mt-1 tracking-wide">
+              <div className="text-cream-50/70 text-xs sm:text-sm mt-1 tracking-wide">
                 {s.label}
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 1 }}
-        className="hidden sm:flex absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex-col items-center gap-2 text-cream-100/70 hover:text-gold-300 transition-colors"
+        className="hidden sm:flex absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex-col items-center gap-2 text-cream-50/70 hover:text-gold-300 transition-colors"
       >
         <span className="text-[10px] tracking-[0.2em] uppercase">Scroll to Explore</span>
         <motion.span

@@ -43,7 +43,7 @@ export default function About() {
     <section id="about" className="section-padding bg-cream-100 relative overflow-hidden">
       <div
         aria-hidden="true"
-        className="absolute -top-20 -left-20 w-72 h-72 bg-gold-100 rounded-full blur-3xl opacity-60"
+        className="absolute -top-20 -left-20 w-72 h-72 bg-gold-400/10 rounded-full blur-3xl"
       />
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 lg:gap-20 items-center relative z-10">
         <motion.div
@@ -80,16 +80,16 @@ export default function About() {
                 viewport={{ once: true, amount: 0.4 }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 whileHover={{ y: -4 }}
-                className="group flex gap-3 items-start bg-white/70 border border-gold-100 rounded-2xl p-4 shadow-sm hover:shadow-lg hover:border-gold-400 transition-all duration-300"
+                className="group flex gap-3 items-start bg-white/5 border border-gold-400/20 rounded-2xl p-4 hover:border-gold-400/50 hover:bg-white/8 transition-all duration-300"
               >
-                <span className="mt-0.5 flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-maroon-600 to-maroon-800 text-gold-300 flex items-center justify-center shadow-md group-hover:scale-110 transition-transform duration-300">
+                <span className="mt-0.5 flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-gold-600 to-gold-400 text-black flex items-center justify-center shadow-md group-hover:scale-110 transition-transform duration-300">
                   <svg width="18" height="18" viewBox="0 0 24 24">
                     {h.icon}
                   </svg>
                 </span>
                 <div>
-                  <h3 className="font-semibold text-maroon-700">{h.title}</h3>
-                  <p className="text-sm text-charcoal/70 mt-1">{h.desc}</p>
+                  <h3 className="font-semibold text-gold-300">{h.title}</h3>
+                  <p className="text-sm text-cream-50/70 mt-1">{h.desc}</p>
                 </div>
               </motion.div>
             ))}
@@ -152,12 +152,12 @@ export default function About() {
               whileInView={{ y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="absolute -top-5 -right-3 sm:-right-6 bg-white rounded-2xl shadow-xl border border-gold-200 px-5 py-4 flex gap-5 z-10"
+              className="absolute -top-5 -right-3 sm:-right-6 bg-maroon-800 rounded-2xl shadow-xl border border-gold-400/30 px-5 py-4 flex gap-5 z-10"
             >
               {stats.map((s) => (
                 <div key={s.label} className="text-center">
-                  <div className="font-display text-2xl font-bold text-maroon-700">{s.value}</div>
-                  <div className="text-[10px] text-charcoal/60 tracking-wide uppercase mt-0.5 whitespace-nowrap">
+                  <div className="font-display text-2xl font-bold text-gold-400">{s.value}</div>
+                  <div className="text-[10px] text-cream-50/60 tracking-wide uppercase mt-0.5 whitespace-nowrap">
                     {s.label}
                   </div>
                 </div>
@@ -169,9 +169,9 @@ export default function About() {
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
               aria-hidden="true"
-              className="absolute bottom-2 right-2 w-20 h-20 rounded-full border-2 border-dashed border-gold-400 flex items-center justify-center bg-cream-50 shadow-lg z-10"
+              className="absolute bottom-2 right-2 w-20 h-20 rounded-full border-2 border-dashed border-gold-400 flex items-center justify-center bg-maroon-800 shadow-lg z-10"
             >
-              <span className="font-display font-bold text-maroon-700 text-[10px] text-center leading-tight px-1">
+              <span className="font-display font-bold text-gold-400 text-[10px] text-center leading-tight px-1">
                 Since Day One
               </span>
             </motion.div>

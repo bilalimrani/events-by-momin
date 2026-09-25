@@ -25,17 +25,17 @@ export default function WhatsAppButton() {
             animate={{ opacity: 1, scale: 1, x: 0 }}
             exit={{ opacity: 0, scale: 0.8, x: 10 }}
             transition={{ duration: 0.3 }}
-            className="mb-2 bg-white rounded-2xl rounded-br-sm shadow-xl border border-gold-200 px-4 py-3 max-w-[190px] relative"
+            className="mb-2 bg-maroon-800 rounded-2xl rounded-br-sm shadow-xl border border-gold-400/30 px-4 py-3 max-w-[190px] relative"
           >
             <button
               onClick={() => setShowTip(false)}
               aria-label="Dismiss"
-              className="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-maroon-700 text-cream-50 text-[10px] flex items-center justify-center"
+              className="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-gold-500 text-black text-[10px] flex items-center justify-center"
             >
               ✕
             </button>
-            <p className="text-sm font-semibold text-maroon-700">Need help planning?</p>
-            <p className="text-xs text-charcoal/60 mt-0.5">Chat with us on WhatsApp!</p>
+            <p className="text-sm font-semibold text-gold-400">Need help planning?</p>
+            <p className="text-xs text-cream-50/60 mt-0.5">Chat with us on WhatsApp!</p>
           </motion.div>
         )}
       </AnimatePresence>

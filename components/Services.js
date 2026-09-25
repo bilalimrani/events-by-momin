@@ -136,8 +136,8 @@ function ServiceCard({ s, index }) {
       whileHover={{ y: -8 }}
       className={`group relative text-left rounded-3xl p-7 overflow-hidden transition-all duration-500 ${
         s.featured
-          ? "bg-gradient-royal bg-300% animate-gradientMove shadow-xl shadow-maroon-900/25 sm:col-span-2 lg:col-span-1"
-          : "bg-white border border-gold-100 shadow-sm hover:shadow-2xl hover:shadow-maroon-900/10 hover:border-gold-400"
+          ? "bg-gradient-royal bg-300% animate-gradientMove shadow-xl shadow-black/40 sm:col-span-2 lg:col-span-1"
+          : "bg-maroon-800 border border-gold-400/20 shadow-sm hover:shadow-2xl hover:shadow-black/30 hover:border-gold-400/50"
       }`}
     >
       <span
@@ -160,7 +160,7 @@ function ServiceCard({ s, index }) {
           className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-5 shadow-lg transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 ${
             s.featured
               ? "bg-gold-400 text-maroon-900 shadow-gold-900/30"
-              : "bg-gradient-to-br from-maroon-600 to-maroon-800 text-gold-300 shadow-maroon-900/20 ring-2 ring-gold-300/0 group-hover:ring-gold-300/60"
+              : "bg-gradient-to-br from-gold-600 to-gold-400 text-black shadow-gold-900/20 ring-2 ring-gold-300/0 group-hover:ring-gold-300/60"
           }`}
         >
           <svg width="26" height="26" viewBox="0 0 24 24">
@@ -168,7 +168,7 @@ function ServiceCard({ s, index }) {
           </svg>
         </div>
         <h3
-          className={`font-display text-xl font-bold mb-2 ${s.featured ? "text-cream-50" : "text-maroon-700"}`}
+          className={`font-display text-xl font-bold mb-2 ${s.featured ? "text-cream-50" : "text-gold-300"}`}
           dangerouslySetInnerHTML={{ __html: s.title }}
         />
         <span
@@ -178,7 +178,7 @@ function ServiceCard({ s, index }) {
           }`}
         />
         <p
-          className={`text-sm leading-relaxed ${s.featured ? "text-cream-100/85" : "text-charcoal/70"}`}
+          className={`text-sm leading-relaxed ${s.featured ? "text-cream-50/85" : "text-cream-50/70"}`}
           dangerouslySetInnerHTML={{ __html: s.desc }}
         />
         <a
@@ -188,7 +188,7 @@ function ServiceCard({ s, index }) {
           target="_blank"
           rel="noopener noreferrer"
           className={`mt-4 inline-flex items-center gap-1.5 text-sm font-semibold opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ${
-            s.featured ? "text-gold-300 hover:text-gold-200" : "text-maroon-700 hover:text-maroon-800"
+            s.featured ? "text-gold-300 hover:text-gold-200" : "text-gold-400 hover:text-gold-300"
           }`}
         >
           Enquire on WhatsApp
@@ -203,7 +203,7 @@ function ServiceCard({ s, index }) {
 
 export default function Services() {
   return (
-    <section id="services" className="section-padding bg-white relative overflow-hidden">
+    <section id="services" className="section-padding bg-maroon-900 relative overflow-hidden">
       <div aria-hidden="true" className="absolute inset-0 pattern-dots opacity-[0.04]" />
 
       <div className="max-w-6xl mx-auto text-center relative z-10">
@@ -211,7 +211,7 @@ export default function Services() {
         <h2 className="section-heading">
           Every Event, Every Theme, <span className="text-gold-600">One Trusted Team</span>
         </h2>
-        <p className="mt-5 max-w-2xl mx-auto text-charcoal/70">
+        <p className="mt-5 max-w-2xl mx-auto text-cream-50/70">
           From weddings and walimas to mango parties and office celebrations — Events by Momin is the
           full-service event planner, event management company and decorator for Rahim Yar Khan,
           Sadiqabad, Khanpur and Liaqatpur.

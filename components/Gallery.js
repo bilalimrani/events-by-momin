@@ -316,13 +316,13 @@ export default function Gallery() {
   const visibleTiles = filter === "All" ? tiles : tiles.filter((t) => t.category === filter);
 
   return (
-    <section id="gallery" className="section-padding bg-white">
+    <section id="gallery" className="section-padding bg-maroon-900">
       <div className="max-w-6xl mx-auto text-center">
         <span className="section-eyebrow">Our Style</span>
         <h2 className="section-heading">
           A Glimpse Into <span className="text-gold-600">Our Celebrations</span>
         </h2>
-        <p className="mt-5 max-w-2xl mx-auto text-charcoal/70">
+        <p className="mt-5 max-w-2xl mx-auto text-cream-50/70">
           Real weddings, mehndis, barat stages and gala nights designed and installed by Events by
           Momin across Rahim Yar Khan, Sadiqabad, Khanpur, Goth Machi and Liaqatpur — tap any photo
           for a closer look.
@@ -337,12 +337,12 @@ export default function Gallery() {
             onClick={() => setFilter(f)}
             className={`px-5 py-2.5 rounded-full text-sm font-semibold border-2 transition-all duration-300 ${
               filter === f
-                ? "bg-maroon-700 border-maroon-700 text-cream-50 shadow-md shadow-maroon-900/20"
-                : "bg-white border-gold-200 text-charcoal/70 hover:border-gold-400 hover:text-maroon-700"
+                ? "bg-gold-500 border-gold-500 text-black shadow-md shadow-gold-900/20"
+                : "bg-transparent border-gold-400/30 text-cream-50/70 hover:border-gold-400 hover:text-gold-400"
             }`}
           >
             {f}
-            <span className={`ml-1.5 text-xs ${filter === f ? "text-gold-300" : "text-charcoal/40"}`}>
+            <span className={`ml-1.5 text-xs ${filter === f ? "text-black/70" : "text-cream-50/40"}`}>
               ({f === "All" ? tiles.length : tiles.filter((t) => t.category === f).length})
             </span>
           </button>

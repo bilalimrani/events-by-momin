@@ -27,9 +27,9 @@ const stats = [
 
 export default function TrustBar() {
   return (
-    <section className="bg-white relative border-b border-gold-100">
+    <section className="bg-maroon-900 relative border-b border-gold-400/20">
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-20 py-10">
-        <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-gold-100">
+        <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-gold-400/20">
           {stats.map((s, i) => (
             <motion.div
               key={s.label}
@@ -39,13 +39,13 @@ export default function TrustBar() {
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="flex flex-col items-center text-center px-3 sm:px-6"
             >
-              <span className="w-11 h-11 rounded-full bg-gradient-to-br from-maroon-600 to-maroon-800 text-gold-300 flex items-center justify-center mb-3 shadow-md">
+              <span className="w-11 h-11 rounded-full bg-gradient-to-br from-gold-600 to-gold-400 text-black flex items-center justify-center mb-3 shadow-md">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path d={s.icon} stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </span>
-              <span className="font-display text-2xl sm:text-3xl font-bold text-maroon-700">{s.value}</span>
-              <span className="text-[11px] sm:text-xs text-charcoal/60 tracking-wide uppercase mt-1">
+              <span className="font-display text-2xl sm:text-3xl font-bold text-gold-400">{s.value}</span>
+              <span className="text-[11px] sm:text-xs text-cream-50/60 tracking-wide uppercase mt-1">
                 {s.label}
               </span>
             </motion.div>

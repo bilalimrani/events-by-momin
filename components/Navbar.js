@@ -49,7 +49,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-cream-50/90 backdrop-blur-md shadow-md shadow-maroon-900/5 py-3"
+          ? "bg-black/90 backdrop-blur-md shadow-md shadow-black/40 py-3"
           : "bg-transparent py-5"
       }`}
     >
@@ -73,7 +73,7 @@ export default function Navbar() {
           </svg>
           <span
             className={`font-display text-2xl sm:text-3xl font-bold tracking-wide transition-colors ${
-              scrolled ? "text-maroon-700" : "text-cream-50"
+              scrolled ? "text-gold-400" : "text-cream-50"
             }`}
           >
             Events <span className="text-gradient-gold">by Momin</span>
@@ -87,7 +87,7 @@ export default function Navbar() {
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
                 className={`font-body text-sm font-medium tracking-wide transition-colors hover:text-gold-500 ${
-                  scrolled ? "text-charcoal" : "text-cream-100"
+                  scrolled ? "text-cream-50" : "text-cream-50"
                 }`}
               >
                 {link.label}
@@ -108,7 +108,7 @@ export default function Navbar() {
         <button
           aria-label="Toggle menu"
           onClick={() => setOpen((v) => !v)}
-          className={`lg:hidden p-2 rounded-lg ${scrolled ? "text-maroon-700" : "text-cream-50"}`}
+          className={`lg:hidden p-2 rounded-lg ${scrolled ? "text-gold-400" : "text-cream-50"}`}
         >
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
             {open ? (
@@ -126,7 +126,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden overflow-hidden bg-cream-50/98 backdrop-blur-md mt-4 shadow-lg"
+            className="lg:hidden overflow-hidden bg-black/98 backdrop-blur-md mt-4 shadow-lg"
           >
             <ul className="flex flex-col gap-1 px-6 py-6">
               {links.map((link) => (
@@ -134,7 +134,7 @@ export default function Navbar() {
                   <a
                     href={link.href}
                     onClick={(e) => { handleNavClick(e, link.href); setOpen(false); }}
-                    className="block py-3 text-charcoal font-medium border-b border-gold-100"
+                    className="block py-3 text-cream-50 font-medium border-b border-gold-400/20"
                   >
                     {link.label}
                   </a>

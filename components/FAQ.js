@@ -165,7 +165,7 @@ export default function FAQ() {
   const isSearchesOpen = openIndex === searchesIndex;
 
   return (
-    <section id="faq" className="section-padding bg-white">
+    <section id="faq" className="section-padding bg-maroon-900">
       <div className="max-w-3xl mx-auto text-center">
         <span className="section-eyebrow">Frequently Asked</span>
         <h2 className="section-heading">
@@ -180,11 +180,11 @@ export default function FAQ() {
           return (
             <div
               key={f.q}
-              className="border border-gold-200 rounded-2xl overflow-hidden bg-cream-50 hover:border-gold-400 transition-colors"
+              className="border border-gold-400/20 rounded-2xl overflow-hidden bg-maroon-800 hover:border-gold-400/50 transition-colors"
             >
               <button
                 onClick={() => setOpenIndex(isOpen ? -1 : i)}
-                className="w-full flex items-center justify-between text-left px-6 py-5 font-semibold text-maroon-700"
+                className="w-full flex items-center justify-between text-left px-6 py-5 font-semibold text-cream-50"
               >
                 <span>{f.q}</span>
                 <motion.span
@@ -203,7 +203,7 @@ export default function FAQ() {
                     transition={{ duration: 0.3 }}
                     className="overflow-hidden"
                   >
-                    <p className="px-6 pb-5 text-charcoal/70 leading-relaxed text-sm">{f.a}</p>
+                    <p className="px-6 pb-5 text-cream-50/70 leading-relaxed text-sm">{f.a}</p>
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -211,10 +211,10 @@ export default function FAQ() {
           );
         })}
 
-        <div className="sm:col-span-2 border border-gold-200 rounded-2xl overflow-hidden bg-cream-50 hover:border-gold-400 transition-colors">
+        <div className="sm:col-span-2 border border-gold-400/20 rounded-2xl overflow-hidden bg-maroon-800 hover:border-gold-400/50 transition-colors">
           <button
             onClick={() => setOpenIndex(isSearchesOpen ? -1 : searchesIndex)}
-            className="w-full flex items-center justify-between text-left px-6 py-5 font-semibold text-maroon-700"
+            className="w-full flex items-center justify-between text-left px-6 py-5 font-semibold text-cream-50"
           >
             <span>What do people search for when planning an event in South Punjab?</span>
             <motion.span
@@ -234,7 +234,7 @@ export default function FAQ() {
                 className="overflow-hidden"
               >
                 <div className="px-6 pb-5">
-                  <p className="text-charcoal/70 leading-relaxed text-sm mb-4">
+                  <p className="text-cream-50/70 leading-relaxed text-sm mb-4">
                     Whatever you type into Google — wedding decor, mehndi setup, barat stage,
                     birthday party, gala night, mango party or office party — Events by Momin is
                     the name that shows up for Rahim Yar Khan, Sadiqabad, Khanpur and Liaqatpur.
@@ -243,7 +243,7 @@ export default function FAQ() {
                     {popularSearches.map((term) => (
                       <span
                         key={term}
-                        className="px-4 py-2 rounded-full bg-white border border-gold-200 text-charcoal/70 text-xs hover:border-gold-400 hover:text-maroon-700 transition-colors"
+                        className="px-4 py-2 rounded-full bg-maroon-700 border border-gold-400/20 text-cream-50/70 text-xs hover:border-gold-400 hover:text-gold-400 transition-colors"
                       >
                         {term}
                       </span>
@@ -259,7 +259,7 @@ export default function FAQ() {
           <h3 className="font-display text-lg font-bold text-cream-50 mb-1.5">
             Still have questions?
           </h3>
-          <p className="text-sm text-cream-100/80 leading-relaxed mb-4">
+          <p className="text-sm text-cream-50/80 leading-relaxed mb-4">
             Message us directly on WhatsApp — we usually reply within a few hours with a
             transparent quote.
           </p>

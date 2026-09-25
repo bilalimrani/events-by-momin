@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "events-by-momin",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "out", "-p", "3500"],
+      "port": 3500
+    }
+  ]
+}

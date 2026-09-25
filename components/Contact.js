@@ -11,7 +11,7 @@ export default function Contact() {
       {/* Top wave — blends in from the section above */}
       <svg
         aria-hidden="true"
-        className="absolute top-0 left-0 w-full text-white"
+        className="absolute top-0 left-0 w-full text-cream-100"
         style={{ transform: "scaleY(-1)" }}
         viewBox="0 0 1440 100"
         fill="currentColor"
@@ -22,7 +22,7 @@ export default function Contact() {
       {/* Bottom wave — blends into the footer */}
       <svg
         aria-hidden="true"
-        className="absolute bottom-0 left-0 w-full text-maroon-950"
+        className="absolute bottom-0 left-0 w-full text-black"
         viewBox="0 0 1440 100"
         fill="currentColor"
       >
@@ -127,18 +127,18 @@ export default function Contact() {
           whileInView={{ x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8 }}
-          className="bg-cream-50 rounded-3xl p-8 shadow-2xl"
+          className="bg-maroon-800 rounded-3xl p-8 shadow-2xl border border-gold-400/20"
         >
           <div className="flex items-center justify-between gap-3 mb-1">
-            <h3 className="font-display text-2xl font-bold text-maroon-700">Quick Enquiry</h3>
-            <span className="hidden sm:inline-flex items-center gap-1.5 text-[11px] font-semibold text-maroon-700 bg-gold-100 px-3 py-1 rounded-full flex-shrink-0">
+            <h3 className="font-display text-2xl font-bold text-gold-400">Quick Enquiry</h3>
+            <span className="hidden sm:inline-flex items-center gap-1.5 text-[11px] font-semibold text-gold-400 bg-gold-400/10 px-3 py-1 rounded-full flex-shrink-0">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
                 <path d="M12 21a9 9 0 100-18 9 9 0 000 18zM12 7v5l3.5 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
               ~2hr reply
             </span>
           </div>
-          <p className="text-sm text-charcoal/60 mb-6">
+          <p className="text-sm text-cream-50/60 mb-6">
             Tell us about your event and we&apos;ll reply within a few hours.
           </p>
           <form
@@ -162,32 +162,32 @@ export default function Contact() {
               name="name"
               required
               placeholder="Your Name"
-              className="w-full rounded-xl border border-gold-200 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
+              className="w-full rounded-xl border border-gold-400/30 bg-maroon-700 text-cream-50 placeholder-cream-50/40 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
             />
             <input
               name="eventType"
               required
               placeholder="Event Type (Wedding, Mehndi, Birthday...)"
-              className="w-full rounded-xl border border-gold-200 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
+              className="w-full rounded-xl border border-gold-400/30 bg-maroon-700 text-cream-50 placeholder-cream-50/40 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
             />
             <input
               name="city"
               required
               placeholder="City / Town (RYK, Sadiqabad, Khanpur...)"
-              className="w-full rounded-xl border border-gold-200 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
+              className="w-full rounded-xl border border-gold-400/30 bg-maroon-700 text-cream-50 placeholder-cream-50/40 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
             />
             <textarea
               name="message"
               rows={3}
               placeholder="Tell us more about your event"
-              className="w-full rounded-xl border border-gold-200 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
+              className="w-full rounded-xl border border-gold-400/30 bg-maroon-700 text-cream-50 placeholder-cream-50/40 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold-400"
             />
             <button type="submit" className="btn-primary w-full justify-center">
               Send via WhatsApp
             </button>
           </form>
 
-          <div className="mt-6 rounded-2xl overflow-hidden border border-gold-200">
+          <div className="mt-6 rounded-2xl overflow-hidden border border-gold-400/30">
             <iframe
               title="Events by Momin Office Location Map"
               src={siteConfig.mapEmbedSrc}

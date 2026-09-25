@@ -29,8 +29,8 @@ const cityLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-maroon-950 text-cream-100/80">
-      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-20 py-12 border-b border-cream-100/10">
+    <footer className="bg-maroon-950 text-cream-50/80">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-20 py-12 border-b border-cream-50/10">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
           <div>
             <h3 className="font-display text-2xl font-bold text-cream-50">
@@ -211,7 +211,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="max-w-6xl mx-auto border-t border-cream-100/10 mt-10 pt-6 text-xs text-cream-100/50 flex flex-col sm:flex-row justify-between gap-3">
+        <div className="max-w-6xl mx-auto border-t border-cream-50/10 mt-10 pt-6 text-xs text-cream-50/50 flex flex-col sm:flex-row justify-between gap-3">
           <p>© {new Date().getFullYear()} Events by Momin. All rights reserved.</p>
           <p>
             Serving Rahim Yar Khan, Sadiqabad, Khanpur, Goth Machi, Liaqatpur &amp; all of South Punjab.

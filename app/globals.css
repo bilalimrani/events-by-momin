@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  background-color: #f6f1ea;
-  color: #241a1e;
+  background-color: #0a0a0a;
+  color: #d4d0cc;
 }
 
 ::selection {
@@ -21,10 +21,10 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f6f1ea;
+  background: #111111;
 }
 ::-webkit-scrollbar-thumb {
-  background: #a4335c;
+  background: #c9a227;
   border-radius: 999px;
 }
 
@@ -34,23 +34,23 @@ body {
   }
 
   .section-heading {
-    @apply font-display text-4xl sm:text-5xl font-bold text-maroon-700 leading-tight;
+    @apply font-display text-4xl sm:text-5xl font-bold text-gold-400 leading-tight;
   }
 
   .section-eyebrow {
-    @apply inline-block font-body text-gold-600 tracking-[0.25em] uppercase text-xs sm:text-sm font-semibold mb-4;
+    @apply inline-block font-body text-gold-500 tracking-[0.25em] uppercase text-xs sm:text-sm font-semibold mb-4;
   }
 
   .btn-primary {
-    @apply inline-flex items-center gap-2 bg-maroon-700 hover:bg-maroon-800 text-cream-50 font-body font-semibold px-8 py-4 rounded-full shadow-lg shadow-maroon-900/20 transition-all duration-300 hover:scale-105 hover:shadow-xl;
+    @apply inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-400 text-black font-body font-semibold px-8 py-4 rounded-full shadow-lg shadow-gold-900/20 transition-all duration-300 hover:scale-105 hover:shadow-xl;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center gap-2 bg-transparent border-2 border-gold-500 text-gold-700 hover:bg-gold-500 hover:text-cream-50 font-body font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105;
+    @apply inline-flex items-center gap-2 bg-transparent border-2 border-gold-400 text-gold-400 hover:bg-gold-400 hover:text-black font-body font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105;
   }
 
   .card-elegant {
-    @apply relative bg-white/70 backdrop-blur-sm border border-gold-200 rounded-3xl p-8 shadow-md shadow-maroon-900/5 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-maroon-900/15 hover:border-gold-400;
+    @apply relative bg-maroon-800/80 backdrop-blur-sm border border-gold-400/20 rounded-3xl p-8 shadow-md transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-gold-900/10 hover:border-gold-400/50;
   }
 
   .gold-divider {
@@ -59,7 +59,7 @@ body {
 }
 
 .bg-gradient-royal {
-  background: linear-gradient(120deg, #3a0c1e, #7a1b3d, #a4335c, #7a1b3d, #3a0c1e);
+  background: linear-gradient(120deg, #050505, #0f0e08, #1a1810, #0f0e08, #050505);
   background-size: 300% 300%;
 }
 

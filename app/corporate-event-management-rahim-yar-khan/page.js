@@ -74,7 +74,7 @@ export default function CorporatePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <Navbar />
       <main className="min-h-screen">
-        <div style={{ background: "linear-gradient(120deg,#3a0c1e,#7a1b3d,#a4335c)", padding: "100px 24px 60px", textAlign: "center", color: "#fffdfb" }}>
+        <div style={{ background: "linear-gradient(120deg,#050505,#0f0e08,#1a1810)", padding: "100px 24px 60px", textAlign: "center", color: "#fffdfb" }}>
           <p style={{ fontSize: "0.85rem", marginBottom: "12px", opacity: 0.7 }}>
             <a href="/" style={{ color: "#ecc754", textDecoration: "none" }}>Home</a> &rsaquo; Corporate Event Management Rahim Yar Khan
           </p>
@@ -85,22 +85,22 @@ export default function CorporatePage() {
             Professional corporate events — annual dinners, office parties, product launches, seminars and award ceremonies. Events by Momin handles everything from decor to execution across RYK and South Punjab.
           </p>
           <a href={siteConfig.whatsappLink} target="_blank" rel="noopener noreferrer"
-            style={{ display: "inline-block", background: "#c9a227", color: "#3a0c1e", fontWeight: "bold", padding: "14px 32px", borderRadius: "999px", textDecoration: "none", fontSize: "1rem" }}>
+            style={{ display: "inline-block", background: "#c9a227", color: "#000000", fontWeight: "bold", padding: "14px 32px", borderRadius: "999px", textDecoration: "none", fontSize: "1rem" }}>
             Plan Your Corporate Event
           </a>
         </div>
 
         <div style={{ maxWidth: "800px", margin: "0 auto", padding: "48px 24px" }}>
-          <h2 style={{ color: "#7a1b3d", fontSize: "1.6rem", fontWeight: "bold", marginBottom: "16px" }}>Corporate Event Services in South Punjab</h2>
-          <p style={{ color: "#333", lineHeight: 1.8, marginBottom: "16px" }}>
+          <h2 style={{ color: "#c9a227", fontSize: "1.6rem", fontWeight: "bold", marginBottom: "16px" }}>Corporate Event Services in South Punjab</h2>
+          <p style={{ color: "#d4d0cc", lineHeight: 1.8, marginBottom: "16px" }}>
             <strong>Events by Momin</strong> is Rahim Yar Khan&apos;s trusted corporate event management company. We plan, design and execute professional corporate events from start to finish — venue decoration, stage setup, lighting, seating arrangements, backdrop and branding — so your team can focus on the event, not the logistics.
           </p>
-          <p style={{ color: "#333", lineHeight: 1.8, marginBottom: "24px" }}>
+          <p style={{ color: "#d4d0cc", lineHeight: 1.8, marginBottom: "24px" }}>
             Whether you need an <strong>&quot;office party planner in RYK&quot;</strong>, <strong>&quot;annual dinner event management Sadiqabad&quot;</strong> or <strong>&quot;corporate event management South Punjab&quot;</strong> — Events by Momin is your one-stop solution.
           </p>
 
-          <h2 style={{ color: "#7a1b3d", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Corporate Events We Manage</h2>
-          <ul style={{ color: "#333", lineHeight: 2.2, paddingLeft: "20px", marginBottom: "24px" }}>
+          <h2 style={{ color: "#c9a227", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Corporate Events We Manage</h2>
+          <ul style={{ color: "#d4d0cc", lineHeight: 2.2, paddingLeft: "20px", marginBottom: "24px" }}>
             <li>Annual Dinner &amp; Awards Night</li>
             <li>Team Building Events &amp; Corporate Activities</li>
             <li>Office Party &amp; Team Celebration</li>
@@ -113,13 +113,13 @@ export default function CorporatePage() {
             <li>Welcome &amp; Farewell Party Decoration</li>
           </ul>
 
-          <h2 style={{ color: "#7a1b3d", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Team Building Events in Rahim Yar Khan</h2>
-          <p style={{ color: "#333", lineHeight: 1.8, marginBottom: "24px" }}>
+          <h2 style={{ color: "#c9a227", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Team Building Events in Rahim Yar Khan</h2>
+          <p style={{ color: "#d4d0cc", lineHeight: 1.8, marginBottom: "24px" }}>
             Looking for <strong>team building event management in RYK</strong>? Events by Momin organises engaging team building activities, corporate dinners and staff celebrations across Rahim Yar Khan and South Punjab. Full decor, stage, lighting, seating and catering — all in one place.
           </p>
 
-          <h2 style={{ color: "#7a1b3d", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Annual Dinner Management Near You</h2>
-          <p style={{ color: "#333", lineHeight: 1.8, marginBottom: "24px" }}>
+          <h2 style={{ color: "#c9a227", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "12px" }}>Annual Dinner Management Near You</h2>
+          <p style={{ color: "#d4d0cc", lineHeight: 1.8, marginBottom: "24px" }}>
             Planning an <strong>annual dinner in Rahim Yar Khan</strong>? We handle complete annual dinner management — stage setup, backdrop with company branding, ambient lighting, seating arrangements, food service and awards presentation. Contact us for a free quote.
           </p>
 
@@ -134,19 +134,19 @@ export default function CorporatePage() {
             </a>
           </div>
 
-          <div style={{ background: "#f6f1ea", border: "2px solid #c9a227", borderRadius: "16px", padding: "24px", marginBottom: "32px" }}>
-            <h3 style={{ color: "#7a1b3d", fontWeight: "bold", marginBottom: "8px" }}>Book Corporate Event Management</h3>
-            <p style={{ color: "#333", lineHeight: 1.8 }}>
-              📞 <a href={`tel:${siteConfig.phoneRaw}`} style={{ color: "#7a1b3d" }}>{siteConfig.phoneDisplay}</a><br />
-              💬 <a href={siteConfig.whatsappLink} target="_blank" rel="noopener noreferrer" style={{ color: "#7a1b3d" }}>WhatsApp for quote</a><br />
-              📧 <a href={`mailto:${siteConfig.email}`} style={{ color: "#7a1b3d" }}>{siteConfig.email}</a>
+          <div style={{ background: "#141414", border: "2px solid #c9a227", borderRadius: "16px", padding: "24px", marginBottom: "32px" }}>
+            <h3 style={{ color: "#c9a227", fontWeight: "bold", marginBottom: "8px" }}>Book Corporate Event Management</h3>
+            <p style={{ color: "#d4d0cc", lineHeight: 1.8 }}>
+              📞 <a href={`tel:${siteConfig.phoneRaw}`} style={{ color: "#c9a227" }}>{siteConfig.phoneDisplay}</a><br />
+              💬 <a href={siteConfig.whatsappLink} target="_blank" rel="noopener noreferrer" style={{ color: "#c9a227" }}>WhatsApp for quote</a><br />
+              📧 <a href={`mailto:${siteConfig.email}`} style={{ color: "#c9a227" }}>{siteConfig.email}</a>
             </p>
           </div>
 
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <a href="/" style={{ color: "#7a1b3d", fontWeight: "bold", textDecoration: "underline" }}>← Back to Home</a>
-            <a href="/gala-night-event-planner" style={{ color: "#7a1b3d", textDecoration: "underline" }}>Gala Night Planner</a>
-            <a href="/event-planner-rahim-yar-khan" style={{ color: "#7a1b3d", textDecoration: "underline" }}>Event Planner RYK</a>
+            <a href="/" style={{ color: "#c9a227", fontWeight: "bold", textDecoration: "underline" }}>← Back to Home</a>
+            <a href="/gala-night-event-planner" style={{ color: "#c9a227", textDecoration: "underline" }}>Gala Night Planner</a>
+            <a href="/event-planner-rahim-yar-khan" style={{ color: "#c9a227", textDecoration: "underline" }}>Event Planner RYK</a>
           </div>
         </div>
       </main>

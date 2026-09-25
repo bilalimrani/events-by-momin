@@ -41,7 +41,7 @@ export default function WhyUs() {
       {/* Top wave — blends in from the section above */}
       <svg
         aria-hidden="true"
-        className="absolute top-0 left-0 w-full text-white"
+        className="absolute top-0 left-0 w-full text-maroon-900"
         style={{ transform: "scaleY(-1)" }}
         viewBox="0 0 1440 100"
         fill="currentColor"
@@ -85,7 +85,7 @@ export default function WhyUs() {
               className="font-display text-lg font-bold text-gold-200 mb-2"
               dangerouslySetInnerHTML={{ __html: p.title }}
             />
-            <p className="text-sm text-cream-100/80 leading-relaxed">{p.desc}</p>
+            <p className="text-sm text-cream-50/80 leading-relaxed">{p.desc}</p>
           </motion.div>
         ))}
       </div>

@@ -27,7 +27,7 @@ const serviceLinks = [
 export default function SeoContent() {
   return (
     <section
-      className="bg-cream-100 border-t border-gold-100"
+      className="bg-maroon-900 border-t border-gold-400/20"
       aria-label="About Events by Momin — Event Planner in South Punjab"
     >
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-20 py-16 sm:py-20">
@@ -42,9 +42,9 @@ export default function SeoContent() {
         </div>
 
         {/* Rich text content */}
-        <div className="grid lg:grid-cols-2 gap-10 text-charcoal/75 leading-relaxed text-sm sm:text-base">
+        <div className="grid lg:grid-cols-2 gap-10 text-cream-50/75 leading-relaxed text-sm sm:text-base">
           <div>
-            <h3 className="font-display text-xl font-bold text-maroon-700 mb-3">
+            <h3 className="font-display text-xl font-bold text-gold-400 mb-3">
               Best Event Planner &amp; Decoration Company in Rahim Yar Khan (RYK)
             </h3>
             <p className="mb-4">
@@ -73,7 +73,7 @@ export default function SeoContent() {
           </div>
 
           <div>
-            <h3 className="font-display text-xl font-bold text-maroon-700 mb-3">
+            <h3 className="font-display text-xl font-bold text-gold-400 mb-3">
               Serving All of South Punjab — From RYK to Liaqatpur
             </h3>
             <p className="mb-4">
@@ -95,7 +95,7 @@ export default function SeoContent() {
               Contact us today on WhatsApp at{" "}
               <a
                 href={siteConfig.whatsappLink}
-                className="text-maroon-700 font-semibold underline hover:text-maroon-900"
+                className="text-gold-400 font-semibold underline hover:text-gold-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -104,7 +104,7 @@ export default function SeoContent() {
               or email us at{" "}
               <a
                 href={`mailto:${siteConfig.email}`}
-                className="text-maroon-700 font-semibold underline hover:text-maroon-900"
+                className="text-gold-400 font-semibold underline hover:text-gold-300"
               >
                 {siteConfig.email}
               </a>
@@ -115,7 +115,7 @@ export default function SeoContent() {
 
         {/* City links */}
         <div className="mt-12">
-          <h3 className="font-display text-lg font-bold text-maroon-700 mb-4 text-center">
+          <h3 className="font-display text-lg font-bold text-gold-400 mb-4 text-center">
             Event Planning by City
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
@@ -123,7 +123,7 @@ export default function SeoContent() {
               <a
                 key={l.href}
                 href={l.href}
-                className="px-4 py-2 rounded-full border-2 border-gold-400 text-maroon-700 text-xs sm:text-sm font-semibold bg-white hover:bg-maroon-700 hover:text-cream-50 hover:border-maroon-700 transition-all duration-300 shadow-sm"
+                className="px-4 py-2 rounded-full border-2 border-gold-400/50 text-gold-300 text-xs sm:text-sm font-semibold bg-maroon-800 hover:bg-gold-500 hover:text-black hover:border-gold-500 transition-all duration-300 shadow-sm"
               >
                 {l.label}
               </a>
@@ -133,7 +133,7 @@ export default function SeoContent() {
 
         {/* Service links */}
         <div className="mt-8">
-          <h3 className="font-display text-lg font-bold text-maroon-700 mb-4 text-center">
+          <h3 className="font-display text-lg font-bold text-gold-400 mb-4 text-center">
             Event Decoration by Service
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
@@ -141,7 +141,7 @@ export default function SeoContent() {
               <a
                 key={l.href}
                 href={l.href}
-                className="px-4 py-2 rounded-full border-2 border-gold-200 text-charcoal/70 text-xs sm:text-sm font-medium bg-white hover:border-gold-400 hover:text-maroon-700 transition-all duration-300 shadow-sm"
+                className="px-4 py-2 rounded-full border-2 border-gold-400/30 text-cream-50/70 text-xs sm:text-sm font-medium bg-maroon-800 hover:border-gold-400 hover:text-gold-400 transition-all duration-300 shadow-sm"
               >
                 {l.label}
               </a>
@@ -155,7 +155,7 @@ export default function SeoContent() {
           itemScope
           itemType="https://schema.org/LocalBusiness"
         >
-          <span itemProp="name" className="font-semibold text-maroon-700">Events by Momin</span>
+          <span itemProp="name" className="font-semibold text-gold-400">Events by Momin</span>
           {" · "}
           <span itemProp="streetAddress">Darhi Sanghi, Near Dominos</span>
           {", "}
@@ -165,11 +165,11 @@ export default function SeoContent() {
           {", "}
           <span itemProp="addressCountry">Pakistan</span>
           {" · "}
-          <a href={`tel:${siteConfig.phoneRaw}`} itemProp="telephone" className="text-maroon-700 hover:underline">
+          <a href={`tel:${siteConfig.phoneRaw}`} itemProp="telephone" className="text-gold-400 hover:underline">
             {siteConfig.phoneDisplay}
           </a>
           {" · "}
-          <a href={`mailto:${siteConfig.email}`} itemProp="email" className="text-maroon-700 hover:underline">
+          <a href={`mailto:${siteConfig.email}`} itemProp="email" className="text-gold-400 hover:underline">
             {siteConfig.email}
           </a>
         </address>

@@ -47,7 +47,7 @@ export default function Testimonials() {
       <div aria-hidden="true" className="absolute inset-0 pattern-dots opacity-[0.07]" />
       <div
         aria-hidden="true"
-        className="absolute -top-10 -right-10 w-72 h-72 bg-gold-200/40 rounded-full blur-3xl"
+        className="absolute -top-10 -right-10 w-72 h-72 bg-gold-400/10 rounded-full blur-3xl"
       />
 
       <div className="max-w-6xl mx-auto text-center relative z-10">
@@ -55,14 +55,14 @@ export default function Testimonials() {
         <h2 className="section-heading">
           What Our <span className="text-gold-600">Clients Say</span>
         </h2>
-        <div className="mt-4 inline-flex items-center gap-2 bg-white border border-gold-200 rounded-full px-5 py-2 shadow-sm">
+        <div className="mt-4 inline-flex items-center gap-2 bg-maroon-800 border border-gold-400/30 rounded-full px-5 py-2 shadow-sm">
           <div className="flex text-gold-500 text-sm" aria-hidden="true">
             {"★★★★★".split("").map((s, i) => (
               <span key={i}>{s}</span>
             ))}
           </div>
-          <span className="text-sm font-semibold text-maroon-700">4.9/5</span>
-          <span className="text-xs text-charcoal/50">from real clients across South Punjab</span>
+          <span className="text-sm font-semibold text-gold-400">4.9/5</span>
+          <span className="text-xs text-cream-50/50">from real clients across South Punjab</span>
         </div>
         <div className="gold-divider mt-6" />
       </div>
@@ -89,16 +89,16 @@ export default function Testimonials() {
               ))}
             </div>
             <p
-              className="text-charcoal/80 leading-relaxed italic relative"
+              className="text-cream-50/80 leading-relaxed italic relative"
               dangerouslySetInnerHTML={{ __html: `“${t.quote}”` }}
             />
             <div className="mt-5 flex items-center gap-3 relative">
-              <span className="w-11 h-11 rounded-full bg-maroon-700 text-gold-300 font-display font-bold flex items-center justify-center">
+              <span className="w-11 h-11 rounded-full bg-gold-500/20 text-gold-400 font-display font-bold flex items-center justify-center border border-gold-400/30">
                 {t.name.charAt(0)}
               </span>
               <div>
-                <p className="font-semibold text-maroon-700">{t.name}</p>
-                <p className="text-xs text-charcoal/60">{t.role}</p>
+                <p className="font-semibold text-gold-400">{t.name}</p>
+                <p className="text-xs text-cream-50/60">{t.role}</p>
               </div>
             </div>
           </motion.div>
